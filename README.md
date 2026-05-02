@@ -1,10 +1,12 @@
-```markdown
 # Shift Scheduling
 
 基於 Spring Boot 的班表管理系統，整合 PostgreSQL、Redis 快取與 JWT 認證，透過 Docker Compose 一鍵部署。
 
-**Spring Boot 3** · **Java 21** · **PostgreSQL** · **Redis** · **Docker**
-
+![Spring Boot](https://shields.io) 
+![Java 21](https://shields.io) 
+![PostgreSQL](https://shields.io)
+![Redis](https://shields.io)
+![Docker](https://shields.io)
 ---
 
 ## 架構概覽
@@ -495,4 +497,3 @@ docker run --rm -v "$PWD":/app -w /app maven:3.9-eclipse-temurin-21 mvn test
 | 進入 Redis | `docker exec -it shift-redis redis-cli` |
 
 > ⚠️ `docker compose down -v` 會清除所有容器和資料，執行前請確認不需要保留資料。
-```
