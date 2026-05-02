@@ -2,11 +2,8 @@
 
 基於 Spring Boot 的班表管理系統，整合 PostgreSQL、Redis 快取與 JWT 認證，透過 Docker Compose 一鍵部署。
 
-![Spring Boot](https://shields.io) 
-![Java 21](https://shields.io) 
-![PostgreSQL](https://shields.io)
-![Redis](https://shields.io)
-![Docker](https://shields.io)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=flat-square&logo=springboot) ![Java 21](https://img.shields.io/badge/Java-21-ED8B00?style=flat-square&logo=openjdk) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-336791?style=flat-square&logo=postgresql) ![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis) ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker)
+
 ---
 
 ## 架構概覽
